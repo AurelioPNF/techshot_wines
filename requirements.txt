@@ -1,0 +1,6 @@
+numpy==1.20.3
+scikit-learn==0.23.2
+fastai
+yellowbrick
+bs4
+lxml
