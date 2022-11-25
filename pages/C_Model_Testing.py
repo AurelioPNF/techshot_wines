@@ -31,8 +31,8 @@ st.write(prediction_data.T)
 prediction = model.fit_model.predict(prediction_data.T)[0]
 
 if prediction == 1:
-    quality = 'good'
+    quality = 'GOOD'
 else:
-    quality = 'bad'
+    quality = 'BAD'
 
-st.markdown(f"## According to the prediction, this is a {quality} wine!")
+st.markdown(f"## According to the prediction, this is a **{quality}** wine!")
