@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 st.sidebar.markdown("# Introduction")
 st.markdown('# Prediction model for what is a "good wine" or a "bad wine"')
 st.markdown('The purpose of this model is, with the data provided bellow, to be able to predict with high accuracy when a wine is either good or bad.')
